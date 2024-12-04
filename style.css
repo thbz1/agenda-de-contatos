@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 40px;
+    background-color: #006b00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 960px;
+    margin: 60px auto 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.496);
+}
+
+#txt {
+    width: 100%;
+    margin-right: 50px;
+}
+
+#txtAdd {
+    margin-bottom: 5px;
+    font-size: 1.8em;
+    font-family: "Noto Sans", sans-serif;
+}
+
+form {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: "Noto Sans", sans-serif;
+}
+
+form input:focus {
+    border: 3px solid #839cc3;;
+    outline: none;
+    transform: scale(1.02);
+}
+
+form button {
+    display: flex;
+    justify-self: flex-end;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007d6a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.05em;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00e1bf;
+    color: black;
+    transform: scale(1.05);
+}
+
+#tabela {
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    font-family: "Noto Sans", sans-serif;
+}
+
+table th {
+    padding: 10px;
+    border-bottom: 2px solid #000;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    text-align: center;
+}
+
+#erroNome, #erroTel {
+    color: red;
+    font-size: 0.8em;
+    text-indent: 10px;
+}
