@@ -110,3 +110,42 @@ table td {
     font-size: 0.8em;
     text-indent: 10px;
 }
+
+@media screen and (max-width:570px) {
+    body {
+        padding: 40px 15px;
+    }
+
+    header {
+        font-size: 1.0em;
+    }
+
+    #formulario {
+        flex-flow: row wrap;
+        margin: 50px auto 20px auto;
+    }
+
+    #txt {
+        margin-right: 0px;
+    }
+
+    #txtAdd {
+        font-size: 1.5em;
+    }
+
+    p {
+        margin-bottom: 16px;
+    }
+
+    form input {
+        font-size: 1.0em;
+    }
+
+    table th {
+        font-size: 1.2em;
+    }
+
+    #erroNome, #erroTel {
+        text-indent: 2px;
+    }
+}
